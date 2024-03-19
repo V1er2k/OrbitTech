@@ -1,0 +1,100 @@
+
+.vacancies
+{
+    background-image: url(..//images/kosmos-fon.jpg); 
+    background-size: cover; 
+    background-position: center;
+}
+.job-find{
+    width: 35%;
+    margin-left: 600px;
+}
+.h1-1{
+    font-family: monospace;
+    color: white;
+    font-size: 50px;
+}
+.vac-list{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(174, 158, 233);
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 700px;
+    width: 520px;
+}
+.vac-1{
+    flex: 0 0 auto; 
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+.vac-2{
+    flex: 0 0 auto; 
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+.vac-3{
+    flex: 0 0 auto; 
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+.vac-4{
+    flex: 0 0 auto; 
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+dl {
+    opacity: 1;
+    text-align: center; 
+}
+
+dt {
+    font-size: 30px; 
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+dd {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+* {
+    text-decoration: none;
+}
+.welcome-text {
+    position: relative;
+    margin-left: 700px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    width: 30%;
+}
+
+.welcome-text h2 {
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+.welcome-text p {
+    color: #666; 
+    font-size: 16px; 
+    line-height: 1.6;
+}
