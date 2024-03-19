@@ -1,0 +1,166 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.logo-icon 
+{
+    /* position: absolute; */
+    width: 70px;
+    height: 65px;
+    /* margin-right: 1300px; */
+}
+
+.header-sections
+{
+    margin-left: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.header-SP
+{
+    margin-left: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.header-sources
+{
+    margin-left: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.header-OC
+{
+    margin-left: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.header-events
+{
+    margin-left: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.header-vac
+{
+    margin-left: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 1210px;
+    margin-right: 10px;
+}
+
+
+.search-input {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 0;
+    opacity: 0;
+    transition: width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    position: absolute;
+    right: 40px;
+    z-index: -1;
+}
+
+.search-box:hover .search-input,
+.search-box:focus-within .search-input {
+    width: 200px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-size: 50px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+
+}
+.call_us{
+    float:left ;
+    color:#fff;
+    vertical-align: 300px;
+  }
+.call_us_main{
+    margin-bottom: 10%;
+ }
+.call_us_num{
+    color:#fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.call_us_email{
+    color:#fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.call_us_adr{
+    color:#fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.call_us{
+    height: 100%;
+    font-size: 40px;
+}
+.about_us{
+    color:white;
+    font-size: 40px;
+}
+    .about_us_posibiletes{
+    font-size: 25px;
+    color:white;
+     text-decoration: none;
+}
+.about_us_tour_operator{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+}
+.about_us_tour_partners{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    }
+.about_us{
+    margin-left: 190px;
+    }
