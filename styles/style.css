@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    top: 0;
 }
 .logo-icon 
 {
@@ -75,11 +76,10 @@
 
 body
 {
-    background-image: url(../images/body-fon.webp); /* Укажите путь к вашему изображению */
-    background-size: cover; /* Это гарантирует, что изображение будет покрывать весь блок */
-    background-position: center; /* Центрирование изображения в блоке */
+    background-image: url(../images/background-image1.png);  
+    background-size: 90%;
+    background-position: center;
 }
-
 
 .search-box {
     position: relative;
