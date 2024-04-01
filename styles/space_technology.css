@@ -1,16 +1,20 @@
 body {
-    background-image: url('../images/TS_main.jpg'); 
+    background-image: url('../images/ts-main.webp'); 
     background-position: center;
+    background-size: 100%;
 }
 
 .main_text {
-    font-size: 20px;
-    margin-left: 10%;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-top: 80px;
+    color: azure;
+    font-family: monospace;
 }
 
 .section-1 {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding: 20px; 
@@ -25,11 +29,97 @@ body {
     background-image: url('../images/sattelite.png');
     background-position: center;
     background-size: cover;
-    width: 400px;
-    height: 300px;
+    border-radius: 10px;
+    width: 900px;
+    height: 600px;
     margin-right: 20px;
+    margin-left: 5%;
 }
 
 .satellite-text {
-    width: 400px;
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.rockets {
+    display: flex;
+    align-items: center;
+}
+
+.rockets-img {
+    background-image: url('../images/rocket.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.rockets-text{
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.rover {
+    display: flex;
+    align-items: center;
+}
+
+.rover-img {
+    background-image: url('../images/rover.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    height: 700px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.rover-text{
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.huble {
+    display: flex;
+    align-items: center;
+}
+
+.huble-img {
+    background-image: url('../images/huble.webp');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.huble-text{
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.satellite, .rockets, .rover, .huble {
+    margin-bottom: 40px;
 }
