@@ -1,0 +1,51 @@
+
+body {
+    background-image: url('../images/ts-main.webp'); 
+    background-position: center;
+    background-size: 100%;
+}
+main {
+    padding: 20px; /* Отступы вокруг основного контента */
+}
+.conference-section {
+    background-color: #ffffff; /* Белый фон для каждого раздела */
+    margin-bottom: 20px; /* Отступ снизу для каждого раздела */
+    padding: 15px; /* Внутренние отступы для разделов */
+    border-radius: 8px; /* Скругленные углы для разделов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для разделов */
+    opacity: 0.8;
+}
+
+.conference-section h2 {
+    color: #023047; /* Цвет заголовка раздела */
+    margin-bottom: 15px; /* Отступ снизу для заголовка */
+}
+
+.conference-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-gap: 15px;
+}
+
+.conference-card {
+    background: #eaecef; /* Фон для карточек */
+    padding: 10px; /* Отступы внутри карточек */
+    border-radius: 5px; /* Скругленные углы для карточек */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень для карточек */
+}
+
+.conference-card h3 {
+    color: #0171b5; /* Цвет заголовка карточки */
+    margin-bottom: 10px; /* Отступ снизу для заголовка карточки */
+}
+
+.conference-card p {
+    color: #333; /* Цвет текста в карточке */
+    line-height: 1.5; /* Межстрочный интервал для текста */
+}
+
+.conference-card .more-info {
+    color: #0171b5; /* Цвет ссылок в карточке */
+    text-decoration: none; /* Убрать подчеркивание для ссылок */
+    font-weight: bold; /* Жирное начертание для текста ссылок */
+}
