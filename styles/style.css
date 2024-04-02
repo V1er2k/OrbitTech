@@ -124,7 +124,34 @@ body
     box-sizing: border-box;
     align-items: center;
 }
+.box-vac {
+    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
 
+    opacity: 0.7;
+}
+.box-vac:hover {
+    transform: scale(1.2);
+}
+.box-events {
+    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+    opacity: 0.7;
+}
+.box-events:hover {
+    transform: scale(1.2);
+}
 .box-schedule {
     flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
     width: 500px;
