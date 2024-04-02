@@ -1,0 +1,78 @@
+body {
+    background-image: url('../images/ts-main.webp'); 
+    background-position: center;
+    background-size: 100%;
+}
+.robotechs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.robotech-img {
+    background-image: url('../images/sattelite.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.robo-text {
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.resource-category {
+    background-color: #ffffff;
+    margin-bottom: 20px; 
+    padding: 15px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.resource-category h2 {
+    color: #023047;
+    margin-bottom: 15px; 
+}
+
+.resources {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    grid-gap: 15px; 
+}
+
+.resource {
+    background: #eaecef;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.resource:hover {
+    transform: scale(1.03);
+}
+
+.resource h3 {
+    color: #0171b5;
+    margin-bottom: 10px; 
+}
+
+.resource p {
+    color: #333;
+    line-height: 1.5; 
+}
+
+.resource .more-info {
+    color: #0171b5; 
+    text-decoration: none; 
+    font-weight: bold;
+}
