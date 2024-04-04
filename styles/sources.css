@@ -11,7 +11,7 @@ body {
 }
 
 .robotech-img {
-    background-image: url('../images/sattelite.png');
+    background-image: url('../images/robotech.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -22,6 +22,60 @@ body {
 }
 
 .robo-text {
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.rocket-making {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.rocket-img {
+    background-image: url('../images/rocket-making.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.rocket-text {
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    font-family: monospace;
+    text-decoration: solid;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.coding-making {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.coding-img {
+    background-image: url('../images/coding.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.coding-text {
     background-color: rgba(240, 255, 255, 0.5);
     border-radius: 10px;
     width: 900px;
