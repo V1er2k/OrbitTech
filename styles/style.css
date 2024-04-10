@@ -8,6 +8,20 @@
     border-radius: 20px;
     top: 0;
 }
+.introductionn{
+    height: 400px;
+}
+.intro-textt{
+    position: absolute;
+    font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0%;
+    color: white;
+    height: 50%;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
 .logo-icon 
 {
     /* position: absolute; */
@@ -115,97 +129,93 @@ body
     font-size: 24px;
     cursor: pointer;
 }
-.containers {
-    margin-top: 400px;
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: row; /* Explicitly set the flex direction to row */
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  .section-text {
+    flex: 1.5;
+    font-size: 1.5em;
+    color: white; 
+  }
+  
+  .section-image {
+    flex: 0.8; 
+  }
+  
+  .section-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .job-vacancies {
     display: flex;
     overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  
+  .job-listing {
+    background-image: linear-gradient(45deg, orange, red, blue);
+    border: 1px solid #ddd;
     padding: 20px;
-    width: 100%; /* Вы можете изменить ширину в соответствии с вашими требованиями */
-    box-sizing: border-box;
-    align-items: center;
-}
-.box-vac {
-    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
-    width: 500px;
-    height: 300px;
+    width: 600px;
     margin: 10px;
-    background-color: #ffffff;
-    transition: transform 0.3s ease;
     border-radius: 10px;
-
-    opacity: 0.7;
-}
-.box-vac:hover {
-    transform: scale(1.2);
-}
-.box-events {
-    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
-    width: 500px;
-    height: 300px;
-    margin: 10px;
-    background-color: #ffffff;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-
-    opacity: 0.7;
-}
-.box-events:hover {
-    transform: scale(1.2);
-}
-.box-schedule {
-    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
-    width: 500px;
-    height: 300px;
-    margin: 10px;
-    background-color: #ffffff;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-
-    opacity: 0.7;
-}
-.box-schedule:hover {
-    transform: scale(1.2);
-}
-.box-forum {
-    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
-    width: 500px;
-    height: 300px;
-    margin: 10px;
-    background-color: #ffffff;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
+    display: inline-block; 
+    overflow: hidden;
+    white-space: normal; 
+    word-wrap: break-word; 
+  }
+  .job-listing {
+    transition: transform 0.3s ease; 
+  }
+  
+  .job-listing:hover {
+    transform: scale(1.05); 
+  }
+  .job-title {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-details,
+  .company-details,
+  .location {
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .job-description,
+  .requirements {
+    margin-bottom: 10px;
+  }
+  
+  .job-actions button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .job-actions button:last-child {
+    background-color: #337ab7;
+  }
+  
+  .job-actions button:hover {
     opacity: 0.8;
-
-}
-.box-forum:hover {
-    transform: scale(1.2);
-}
-.box-jobs {
-    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
-    width: 500px;
-    height: 300px;
-    margin: 10px;
-    background-color: #ffffff;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-    opacity: 0.8;
-}
-.box-jobs:hover {
-    transform: scale(1.2);
-}
-.box-resourses {
-    flex: 0 0 auto; /* Это гарантирует, что блоки не сжимаются и не растягиваются */
-    width: 500px;
-    height: 300px;
-    margin: 10px;
-    background-color: #ffffff;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-    opacity: 0.8;
-}
-.box-resourses:hover {
-    transform: scale(1.2);
-}
+  }
+  
 dl{
     margin: 100px;
     opacity: 1;
