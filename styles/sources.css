@@ -102,7 +102,6 @@ body {
     font-size: 20px;
 }
 .resource-category {
-    background-color: #ffffff;
     margin-bottom: 20px; 
     padding: 15px; 
     border-radius: 8px;
@@ -110,14 +109,16 @@ body {
 }
 
 .resource-category h2 {
-    color: #023047;
-    margin-bottom: 15px; 
+    color: #ffffff;
+    margin-bottom: 18px; 
 }
 
 .resources {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
     grid-gap: 15px; 
+    border: #ffffff solid 1px;
+    border-radius: 5px;
 }
 
 .resource {
@@ -126,6 +127,9 @@ body {
     border-radius: 5px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease; 
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
 }
 
 .resource:hover {
@@ -135,11 +139,13 @@ body {
 .resource h3 {
     color: #0171b5;
     margin-bottom: 10px; 
+    
 }
 
 .resource p {
     color: #333;
     line-height: 1.5; 
+    
 }
 
 .resource .more-info {
